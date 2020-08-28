@@ -14,6 +14,7 @@ const Cat = ({ name, kind, age, color }) => {
       <h5>{color}</h5>
       <Bird birdName={name} birdKind={kind} birdAge={age} birdColor={color} />
       <button
+        style={{ backgroundColor: "blue" }}
         onClick={() => {
           setIsShowingText("Esra demir");
         }}
